@@ -8,7 +8,7 @@
 ```
 VehShare/
 ├── README.md                                   //  Introduction
-├── BSPEFB										//  BaseLine1
+├── BSPEFB                                      //  BaseLine1
 │   ├── BSPEFB.py
 │   └── BSPEFB.sol
 ├── dataset
@@ -17,7 +17,7 @@ VehShare/
 │   ├── dataset_3K
 │   ├── dataset_4K
 │   └── dataset_5K
-└── OurScheme   								//  OurScheme
+└── OurScheme                                   //  OurScheme
     ├── vehshare.py
     └── vehshare.sol                                 
 ```
