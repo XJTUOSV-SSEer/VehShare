@@ -54,7 +54,7 @@ Package ：
 
 
 
-### Building Procedure
+### Building Procedure 1
 
 ```shell
 # Procedure for vehshare
@@ -71,4 +71,20 @@ $ cd OurScheme
 $ python3.6 vehshare.py
 
 # BSPEFB same as vehshare
+```
+
+
+### Building Procedure 2
+```shell
+# Procedure for vehshare2
+# Start up a blockchain
+ganache-cli -g 1 -l 9007199254740991 --db ./RDBlockchain -s 1234 -a 2
+# Compile contracts
+# open a new terminal tab 
+truffle compile
+# Run apps
+cd app
+# make sure ganache-cli has showen "Listening on 127.0.0.1:8545"
+python3.6 vehshare.py
+
 ```
